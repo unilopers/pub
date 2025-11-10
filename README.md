@@ -1,4 +1,4 @@
-# Pub
+# Pub 🍺
 
 ### Grupo
 
