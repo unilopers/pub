@@ -33,7 +33,7 @@ public class ErrorResponse {
     public void setError(String error) { this.error = error; }
 
     public String getMessage() { return message; }
-    public void setMessage(String message) { this.message = message; }
+    public void setMessage(String message) { this.path = message; }
 
     public String getPath() { return path; }
     public void setPath(String path) { this.path = path; }
