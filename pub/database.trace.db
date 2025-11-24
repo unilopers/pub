@@ -1,0 +1,45 @@
+2025-11-23 16:07:21.010692-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.atracoes_musicais,e1_0.data,e1_0.hora_inicio,e1_0.nome from evento e1_0 [42104-232]
+2025-11-23 16:08:48.618193-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.atracoes_musicais,e1_0.data,e1_0.hora_inicio,e1_0.nome from evento e1_0 [42104-232]
+2025-11-23 16:08:56.106457-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.atracoes_musicais,e1_0.data,e1_0.hora_inicio,e1_0.nome from evento e1_0 [42104-232]
+2025-11-23 16:09:32.536235-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.atracoes_musicais,e1_0.data,e1_0.hora_inicio,e1_0.nome from evento e1_0 [42104-232]
+2025-11-23 16:12:10.703818-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.atracoes_musicais,e1_0.data,e1_0.hora_inicio,e1_0.nome from evento e1_0 [42104-232]
+2025-11-23 18:11:07.223588-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.atracoes_musicais,e1_0.data,e1_0.hora_inicio,e1_0.nome from evento e1_0 [42104-232]
+2025-11-23 19:10:23.677546-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.atracoes_musicais,e1_0.data,e1_0.hora_inicio,e1_0.nome from evento e1_0 [42104-232]
+2025-11-23 19:10:34.827139-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.atracoes_musicais,e1_0.data,e1_0.hora_inicio,e1_0.nome from evento e1_0 [42104-232]
+2025-11-23 19:13:30.160885-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.atracoes_musicais,e1_0.data,e1_0.hora_inicio,e1_0.nome from evento e1_0 [42104-232]
+2025-11-23 19:16:56.022374-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+insert into evento (atracoes_musicais,data,hora_inicio,nome,id) values (?,?,?,?,default) [42104-232]
+2025-11-23 19:19:24.026974-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+insert into evento (atracoes_musicais,data,hora_inicio,nome,id) values (?,?,?,?,default) [42104-232]
+2025-11-23 19:27:04.868557-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.atracoes_musicais,e1_0.data,e1_0.hora_inicio,e1_0.nome from evento e1_0 [42104-232]
+2025-11-23 19:27:06.361564-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.atracoes_musicais,e1_0.data,e1_0.hora_inicio,e1_0.nome from evento e1_0 [42104-232]
+2025-11-23 19:31:30.240418-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.atracoes_musicais,e1_0.data,e1_0.hora_inicio,e1_0.nome from evento e1_0 [42104-232]
+2025-11-23 19:33:20.370962-03:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EVENTO" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.atracoes_musicais,e1_0.data,e1_0.hora_inicio,e1_0.nome from evento e1_0 [42104-232]
