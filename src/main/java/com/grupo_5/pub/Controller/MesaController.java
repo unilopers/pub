@@ -1,6 +1,7 @@
 package com.grupo_5.pub.Controller;
 
 import com.grupo_5.pub.Model.Mesa;
+import com.grupo_5.pub.Model.Mesas;
 import com.grupo_5.pub.Repository.MesaRepository;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
@@ -8,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/mesas")
+@RequestMapping(value = "/mesas", produces = MediaType.APPLICATION_XML_VALUE)
 public class MesaController {
 
     private final MesaRepository mesaRepository;
@@ -18,20 +19,18 @@ public class MesaController {
     }
 
     @GetMapping(produces = MediaType.APPLICATION_XML_VALUE)
-    public List<Mesa> listar() {
-        return mesaRepository.findAll();
+    public Mesas listar() {
+        return new Mesas(mesaRepository.findAll());
     }
+
 
     @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_XML_VALUE)
     public Mesa buscarPorId(@PathVariable Integer id) {
         return mesaRepository.findById(id).orElseThrow();
     }
 
-    @PostMapping(
-            consumes = MediaType.APPLICATION_XML_VALUE,
-            produces = MediaType.APPLICATION_XML_VALUE
-    )
-    public Mesa salvar(@RequestBody Mesa mesa) {
+    @PostMapping(consumes = MediaType.APPLICATION_XML_VALUE, produces = MediaType.APPLICATION_XML_VALUE)
+    public Mesa criar(@RequestBody Mesa mesa) {
         return mesaRepository.save(mesa);
     }
 

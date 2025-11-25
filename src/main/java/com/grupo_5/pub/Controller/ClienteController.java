@@ -2,13 +2,15 @@ package com.grupo_5.pub.Controller;
 
 import com.grupo_5.pub.Model.Cliente;
 import com.grupo_5.pub.Repository.ClienteRepository;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/clientes")
+@RequestMapping(value = "/clientes", produces = MediaType.APPLICATION_XML_VALUE)
 public class ClienteController {
 
     private final ClienteRepository clienteRepository;
@@ -22,20 +24,13 @@ public class ClienteController {
         return clienteRepository.findAll();
     }
 
-    @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_XML_VALUE)
-    public Cliente buscarPorId(@PathVariable Integer id) {
-        return clienteRepository.findById(id).orElseThrow();
-    }
-
     @PostMapping(
             consumes = MediaType.APPLICATION_XML_VALUE,
             produces = MediaType.APPLICATION_XML_VALUE
     )
-
     public Cliente salvar(@RequestBody Cliente cliente) {
         return clienteRepository.save(cliente);
     }
-
     @PutMapping(
             value = "/{id}",
             consumes = MediaType.APPLICATION_XML_VALUE,

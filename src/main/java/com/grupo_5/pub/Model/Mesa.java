@@ -1,13 +1,15 @@
 package com.grupo_5.pub.Model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
+import jakarta.persistence.*;
+
 
 @Entity
+@JacksonXmlRootElement(localName = "mesa")
 public class Mesa {
 
     @Id
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     @Column(nullable=false, unique=true)
     private Integer id;
 
